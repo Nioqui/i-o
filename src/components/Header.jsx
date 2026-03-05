@@ -10,7 +10,7 @@ const defaultSections = [
 
 export default function Header({
   sections = defaultSections,
-  githubUrl = "https://github.com/your-repo/io",
+  githubUrl = "https://github.com/Nioqui/i-o",
   showBackgroundOnScroll = true,
 }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -86,7 +86,7 @@ export default function Header({
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/Nioqui/i:o"
+            href="https://github.com/Nioqui/i-o"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex group relative items-center gap-2 px-4 py-2 font-sans text-sm font-medium text-white transition-all duration-300 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-[#7C3AED]/50 shadow-[0_0_15px_rgba(109,40,217,0.15)] hover:shadow-[0_0_25px_rgba(124,58,237,0.3)] backdrop-blur-md"
@@ -116,7 +116,7 @@ export default function Header({
             key={section.id}
             href={`#${section.id}`}
             onClick={() => setIsMobileMenuOpen(false)}
-            className={`block px-4 py-3 font-sans text-sm font-medium rounded-xl transition-colors ${
+            className={`block px-4 py-3 font-mono text-sm font-medium rounded-xl transition-colors ${
               activeSection === section.id
                 ? "bg-white/10 text-white"
                 : "text-gray-400 hover:bg-white/5 hover:text-white"

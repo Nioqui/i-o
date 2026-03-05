@@ -199,7 +199,7 @@ export default function BackgroundEffect() {
     };
 
     // Load font from Google Fonts to ensure it works immediately
-    const font = new FontFace("Space Mono", "url(https://fonts.gstatic.com/s/spacemono/v12/i747Ao_8H9za9yY1-n_baFfM.woff2)");
+    const font = new FontFace("Space Mono", "url(/fonts/SpaceMono-Regular.woff2)");
     font.load().then(() => {
       document.fonts.add(font);
       initTexture();
@@ -495,7 +495,10 @@ void main(){
         document.fonts.add(font);
         render();
       })
-      .catch(() => render());
+      .catch(() => {
+        // Fallback to searching for the font in the document
+        document.fonts.ready.then(() => render());
+      });
 
     return () => {
       resizeObserver.disconnect();

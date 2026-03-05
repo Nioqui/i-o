@@ -56,13 +56,13 @@ export default function HowToUse({ isCopied, generatedCode }) {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-20">
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight inline-flex items-center">
+          <h2 className="font-sans text-3xl md:text-5xl font-bold tracking-tight inline-flex items-center flex justify-center align-center text-center">
             How to use
             <span className="font-mono text-[#B19EEF] px-3 py-1 text-2xl md:text-5xl">
               i:o
             </span>
           </h2>
-          <p className="text-neutral-500 text-lg mt-6 max-w-2xl leading-relaxed">
+          <p className="font-sans text-neutral-500 text-lg mt-6 max-w-2xl leading-relaxed">
             Follow these three simple steps to integrate your custom ASCII
             effect into any React project.
           </p>
@@ -76,10 +76,10 @@ export default function HowToUse({ isCopied, generatedCode }) {
           {/* Step 1 */}
           <div className="group flex flex-col space-y-6">
             <div className="space-y-2">
-              <h3 className="text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
+              <h3 className="font-sans text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
                 1. Create the component file
               </h3>
-              <p className="text-sm text-neutral-500 leading-relaxed">
+              <p className="font-sans text-neutral-500 text-sm leading-relaxed">
                 Create a new file inside your components folder to house the
                 effect.
               </p>
@@ -109,10 +109,10 @@ export default function HowToUse({ isCopied, generatedCode }) {
           {/* Step 2 */}
           <div className="group flex flex-col space-y-6">
             <div className="space-y-2">
-              <h3 className="text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
+              <h3 className="font-sans text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
                 2. Paste the playground code
               </h3>
-              <p className="text-sm text-neutral-500 leading-relaxed">
+              <p className="font-sans text-sm text-neutral-500 leading-relaxed">
                 Copy the generated component from the playground and paste it
                 inside the file.
               </p>
@@ -159,10 +159,10 @@ export default function HowToUse({ isCopied, generatedCode }) {
           {/* Step 3 */}
           <div className="group flex flex-col space-y-6">
             <div className="space-y-2">
-              <h3 className="text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
+              <h3 className="font-sans text-xl font-medium text-white group-hover:text-[#a855f7] transition-colors duration-300">
                 3. Import and use
               </h3>
-              <p className="text-sm text-neutral-500 leading-relaxed">
+              <p className="font-sans text-sm text-neutral-500 leading-relaxed">
                 Finally, import your brand new component and drop it into your
                 App.
               </p>

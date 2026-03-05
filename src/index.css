@@ -2,6 +2,51 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/* --- Space Mono Regular --- */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-Regular.woff2') format('woff2');
+}
+
+/* --- Space Mono Italic --- */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-Italic.woff2') format('woff2');
+}
+
+/* --- Space Mono Bold --- */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-Bold.woff2') format('woff2');
+}
+
+/* --- Space Mono Bold Italic --- */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-BoldItalic.woff2') format('woff2');
+}
+
+/* --- Space Grotesk --- */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/fonts/SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
@@ -14,9 +59,8 @@ html,
 body,
 #root {
   color: #fff;
-  font-family: var(--font-sans);
   background-color: #000;
-  font-family: 'Space Mono', monospace;
+  font-family: var(--font-mono);
 }
 
 @theme inline {

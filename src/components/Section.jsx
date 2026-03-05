@@ -17,17 +17,17 @@ export default function FullSectionFaq() {
             Vision &amp; Philosophy
           </GradientText>
 
-          <h2 className="font-display text-4xl lg:text-5xl font-bold text-white leading-[1.1] tracking-tight">
+          <h2 className="font-mono text-4xl lg:text-5xl font-bold text-white leading-[1.1] tracking-tight">
             Where visual logic becomes{" "}
             <span className="font-mono text-[#B19EEF]">living type</span>
           </h2>
 
           <p className="font-sans text-base text-neutral-400 leading-relaxed max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
-            <span className="font-mono text-neutral-300">i:o</span> was born
-            from a single question: what if typography could think? Instead of
-            static glyphs on a grid, each character becomes a pixel — a unit of
-            intent shaped by luminance, motion, and code. It's ASCII, but as a
-            live system.
+            <span className="font-mono text-[#B19EEF]">i:o </span>
+            was born from a single question: what if typography could think?
+            Instead of static glyphs on a grid, each character becomes a pixel —
+            a unit of intent shaped by luminance, motion, and code. It's ASCII,
+            but as a live system.
           </p>
 
           <p className="font-sans text-base text-neutral-400 leading-relaxed max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
@@ -52,7 +52,7 @@ export default function FullSectionFaq() {
               Implementation breakdown
             </p>
             <p className="font-sans text-sm text-neutral-400 leading-relaxed transition-all duration-500 ease-out hover:text-[#e8e8e8]">
-              <span className="font-mono text-neutral-300">i:o</span> samples
+              <span className="font-mono text-[#B19EEF]">i:o </span> samples
               each animation frame via WebGL, maps luminance values to a
               character lookup table, and writes the result into a DOM grid. All
               heavy computation stays on the GPU — the CPU only handles
