@@ -3,11 +3,9 @@
 **i:o** is an open-source generative art engine that merges the nostalgic aesthetic of **ASCII** with the raw power of modern **WebGL**. Designed for developers and designers who want to integrate dynamic, organic, and high-performance backgrounds into any web project.
 
 > [!IMPORTANT]
-> **Try the Live Editor:** > Experiment with noise patterns, tweak parameters, and generate your custom configuration in real-time at:  
-> **🚀 [https://nioqui.github.io/i-o/](#)**
-> <a href="https://nioqui.github.io/i-o/" target="_blank">View i:o Live</a>
+> **Try the Live Editor:** > Experiment with noise patterns, tweak parameters, and generate your custom configuration in real-time at:
 
----
+> **<a href="https://nioqui.github.io/i-o/" target="_blank">View i:o Live 🚀</a>(#)**
 
 ## ⚡️ High Performance: GPU Accelerated
 
