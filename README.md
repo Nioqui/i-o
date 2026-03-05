@@ -5,6 +5,7 @@
 > [!IMPORTANT]
 > **Try the Live Editor:** > Experiment with noise patterns, tweak parameters, and generate your custom configuration in real-time at:  
 > **🚀 [https://nioqui.github.io/i-o/](#)**
+> <a href="https://nioqui.github.io/i-o/" target="_blank">View i:o Live</a>
 
 ---
 
