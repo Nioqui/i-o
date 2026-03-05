@@ -3,9 +3,9 @@ import CountUp from "./ui/CountUp";
 
 export default function FullSectionFaq() {
   return (
-    <section className="px-6 flex flex-col items-center">
+    <section className="px-4 md:px-6 lg:px-20 flex flex-col items-center">
       {/* ── MAIN BLOCK ── */}
-      <div className="flex flex-col lg:flex-row gap-16 w-full max-w-6xl items-start py-24">
+      <div className="flex flex-col lg:flex-row gap-16 w-full lg:max-w-6xl mx-auto items-start py-24">
         {/* ── LEFT ── */}
         <div className="flex flex-col gap-6 lg:w-1/2 lg:sticky lg:top-32">
           <GradientText
@@ -22,7 +22,7 @@ export default function FullSectionFaq() {
             <span className="font-mono text-[#B19EEF]">living type</span>
           </h2>
 
-          <p className="font-sans text-base text-neutral-400 leading-relaxed max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
+          <p className="font-sans text-base text-neutral-400 leading-relaxed w-full lg:max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
             <span className="font-mono text-[#B19EEF]">i:o </span>
             was born from a single question: what if typography could think?
             Instead of static glyphs on a grid, each character becomes a pixel —
@@ -30,7 +30,7 @@ export default function FullSectionFaq() {
             but as a live system.
           </p>
 
-          <p className="font-sans text-base text-neutral-400 leading-relaxed max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
+          <p className="font-sans text-base text-neutral-400 leading-relaxed w-full lg:max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
             The project sits at the intersection of generative art and developer
             tooling. It's not a demo — it's infrastructure for creative
             engineers who want to push the browser's rendering capabilities
@@ -38,7 +38,7 @@ export default function FullSectionFaq() {
             and fully composable.
           </p>
 
-          <p className="font-sans text-base text-neutral-400 leading-relaxed max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
+          <p className="font-sans text-base text-neutral-400 leading-relaxed w-full lg:max-w-sm transition-all duration-500 ease-out hover:text-[#e8e8e8]">
             Open-source by design. The experiment only works when it's shared.
             Fork it, break it, reshape it into something we haven't imagined —
             that's the whole point.
@@ -104,7 +104,7 @@ export default function FullSectionFaq() {
       </div>
 
       {/* ── COUNT UP SECTION ── */}
-      <div className="w-full max-w-6xl pt-28 pb-6 flex flex-col items-center justify-center text-center border-t border-neutral-800">
+      <div className="w-full lg:max-w-6xl mx-auto pt-28 pb-6 flex flex-col items-center justify-center text-center border-t border-neutral-800">
         <p className="font-sans text-sm font-medium tracking-widest uppercase text-neutral-500 mb-6">
           Licensing
         </p>
