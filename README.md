@@ -1,16 +1,40 @@
-# React + Vite
+# i:o — Generative ASCII Backgrounds
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**i:o** is an open-source generative art engine that merges the nostalgic aesthetic of **ASCII** with the raw power of modern **WebGL**. Designed for developers and designers who want to integrate dynamic, organic, and high-performance backgrounds into any web project.
 
-Currently, two official plugins are available:
+> [!IMPORTANT]
+> **Try the Live Editor:** > Experiment with noise patterns, tweak parameters, and generate your custom configuration in real-time at:  
+> **🚀 [Your-Website-Here.com](#)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⚡️ High Performance: GPU Accelerated
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Unlike traditional ASCII generators that rely on heavy DOM manipulation or standard 2D Canvas contexts, **i:o** is fully **GPU-accelerated**.
 
-## Expanding the ESLint configuration
+By offloading the calculation of every single character to **GLSL Shaders**, we achieve a consistent **60 FPS** even with extreme character densities. This allows for complex post-processing effects—like liquefaction and chromatic aberration—without taxing the CPU.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Technical Highlights
+
+- **WebGL Pipeline:** Ultra-efficient rendering that processes thousands of cells in milliseconds.
+- **2D Simplex Noise:** Procedural generation of fluid, organic patterns that feel "alive."
+- **Real-time Post-processing:** Built-in _Liquify_ and _Chromatic Aberration_ algorithms calculated per-frame.
+- **Live Interactivity:** Modify density, speed, and scale parameters directly from the web interface and integrate them instantly.
+
+## 🛠️ The Concept
+
+The core engine uses a procedural noise function to determine the luminance of each cell:
+
+$$L(x, y, t) = \text{Simplex}(x \cdot \text{scale}, y \cdot \text{scale}, t \cdot \text{speed})$$
+
+This value $L$ is dynamically mapped to a specific ASCII character set, creating a rich, ever-changing visual texture that responds to parameter shifts in real-time.
+
+## 🤝 Open Source & Contributions
+
+This project is **100% open-source**. The goal is for the community to extend shader functions, add new character sets, or refine the distortion algorithms.
+
+**Have an idea or a fix?** Contributions are highly encouraged. Feel free to open an _Issue_ or submit a _Pull Request_ to help evolve this ASCII engine.
+
+---
+
+_Built with technical precision and a passion for procedural design._
