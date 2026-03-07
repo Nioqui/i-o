@@ -8,7 +8,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/SpaceMono-Regular.woff2') format('woff2');
+  src: url('/i-o/fonts/SpaceMono-Regular.woff2') format('woff2');
 }
 
 /* --- Space Mono Italic --- */
@@ -17,7 +17,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/SpaceMono-Italic.woff2') format('woff2');
+  src: url('/i-o/fonts/SpaceMono-Italic.woff2') format('woff2');
 }
 
 /* --- Space Mono Bold --- */
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/SpaceMono-Bold.woff2') format('woff2');
+  src: url('/i-o/fonts/SpaceMono-Bold.woff2') format('woff2');
 }
 
 /* --- Space Mono Bold Italic --- */
@@ -35,7 +35,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/SpaceMono-BoldItalic.woff2') format('woff2');
+  src: url('/i-o/fonts/SpaceMono-BoldItalic.woff2') format('woff2');
 }
 
 /* --- Space Grotesk --- */
@@ -44,7 +44,7 @@
   font-style: normal;
   font-weight: 300 700;
   font-display: swap;
-  src: url('/fonts/SpaceGrotesk-Regular.woff2') format('woff2');
+  src: url('/i-o/fonts/SpaceGrotesk-Regular.woff2') format('woff2');
 }
 
 @custom-variant dark (&:is(.dark *));

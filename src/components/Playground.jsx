@@ -487,8 +487,9 @@ void main(){
 
     const font = new FontFace(
       "Space Mono",
-      "url(/fonts/SpaceMono-Regular.woff2)",
+      "url(/i-o/fonts/SpaceMono-Regular.woff2)",
     );
+
     font
       .load()
       .then(() => {
